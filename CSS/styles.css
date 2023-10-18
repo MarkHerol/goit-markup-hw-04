@@ -1,0 +1,227 @@
+:root{
+    --IRIS: #4d5ae5;
+    --NAVY-BLUE: #2e2f42;
+}
+
+/*HEADER*/
+/*logo, menu link, contact*/
+.flex-container{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.menu{
+    display:flex;
+    gap: 32px; 
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    
+  }
+
+.contact{
+    display:flex;
+    gap: 32px; 
+    align-items: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+  }
+
+a{
+    text-decoration: none;
+    color:#2e2f42;
+}
+a:hover{
+    color:aqua;
+}
+.my-studio{
+    color:#4d5ae5;
+}   
+.menu{
+    text-align: left;
+    padding:0;
+    
+}
+.contact{
+    text-align: left;
+    padding:0; 
+}
+ul{
+    list-style: none;
+    text-align: left;
+    padding:0;
+ }
+
+.list {
+    list-style:none;
+    display: flex;
+    text-align: center;  
+}
+li{
+    text-align: center;
+}
+
+/*hero section*/
+.my-btn{
+    background-color:var(--IRIS, #4D5AE5) 
+}
+
+.my-btn{
+    padding:16px 32px;
+    font-size:16px;
+    font-style:inherit;
+    font-weight: 500;
+}
+
+.my-btn{
+    display: inline-flex;
+    align-items: flex-start;    
+}
+
+.hero{
+    background-color:#2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+}
+
+.hero{
+    text-decoration: none;
+    color:#fff;
+}
+
+.my-btn{
+    text-decoration: none;
+    color:#fff; 
+}
+
+.my-btn:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+/*BODY*/
+/*benifit section*/
+h2{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.benefit{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.benefit{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.device{
+    text-align: left;
+    padding-top: 100px;
+    background:#FFF;
+}
+.device{
+    display: flex;
+    padding-bottom: 100px;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.teams{
+    font-family: Roboto;
+    background: var(--CLOUD, #F4F4FD);
+}
+
+.teams{
+    display: flex;
+    padding-top: 232px;
+    padding-bottom: 120px;
+    flex-direction:inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.team-mark{
+    background:white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+.team-tom{
+    background:white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+.team-camilla{
+    background:white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+.team-daniel{
+    background:white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+/*FOOTER*/
+footer{
+    background-color:#2e2f42;
+    text-decoration:none;
+    color:#fff  
+}
+
+.footer-link{
+    display: flex;
+    padding-left: 156px;
+    padding-right: 1020px;
+    padding-top: 140px;
+    font-family: Roboto;
+}
+
+.footer-body{
+    display: flex;
+    padding-left: 156px;
+    padding-right: 1020px;
+    padding-bottom: 100px;
+    font-family: Roboto;
+}
+
+.logo{
+    text-decoration: none;
+    color: var(NAVY-BLUE);
+}
+
+.logo span{
+    color: var(IRIS);
+}
