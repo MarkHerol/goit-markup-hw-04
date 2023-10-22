@@ -6,11 +6,22 @@
 /*HEADER*/
 /*logo, menu link, contact*/
 .flex-container{
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 40px;
     align-items: center;
 }
+
+.header-link{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    padding-left: 156px;
+}
+
 .menu{
     display:flex;
     gap: 32px; 
@@ -21,8 +32,7 @@
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
-    
-  }
+}
 
 .contact{
     display:flex;
@@ -41,11 +51,17 @@ a{
     color:#2e2f42;
 }
 a:hover{
-    color:aqua;
+    cursor: pointer;
 }
 .my-studio{
     color:#4d5ae5;
 }   
+
+.portfolio
+
+
+
+
 .menu{
     text-align: left;
     padding:0;
@@ -71,32 +87,43 @@ li{
 }
 
 /*hero section*/
-.my-btn{
-    background-color:var(--IRIS, #4D5AE5) 
-}
-
-.my-btn{
-    padding:16px 32px;
-    font-size:16px;
-    font-style:inherit;
-    font-weight: 500;
-}
-
-.my-btn{
-    display: inline-flex;
-    align-items: flex-start;    
-}
-
-.hero{
-    background-color:#2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    text-align: center;
+h1{
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
 }
 
 .hero{
     text-decoration: none;
     color:#fff;
+}
+
+.hero{
+    background: linear-gradient( rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("../images/people-office.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.my-btn{
+    background-color:var(--IRIS, #4D5AE5) 
+}
+
+.my-btn{
+    border-radius: 4px;
+    padding:16px 32px;
+    font-size:16px;
+    gap: 10px;
+}
+
+.my-btn{
+    display: inline-flex;
+    align-items: flex-start;    
 }
 
 .my-btn{
@@ -106,7 +133,7 @@ li{
 
 .my-btn:hover{
     cursor: pointer;
-    background-color: grey;
+    background-color: #2e2f42;
 }
 
 /*BODY*/
@@ -120,6 +147,13 @@ h2{
     line-height: 40px; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
+}
+
+.about-section{
+    display: flex;
+}
+.images-icon{
+    display: flex;
 }
 
 .benefit{
@@ -175,6 +209,10 @@ h2{
     border-radius: 5px;
     box-shadow: 5px;
 }
+.icon-icon-facebook{
+    display: flex;
+}
+
 .team-tom{
     background:white;
     text-align: center;

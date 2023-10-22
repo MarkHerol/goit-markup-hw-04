@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework 3</title>
+    <title>Homework 4</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -20,12 +20,11 @@
     <!--HEAD-->
    
     <header>
-        <div class="flex-container">
         <!--logo-->
-                <a class="header-link link" href="Webstudio" class="logo"><span style="color:#4d5ae5">WEB</span><span style="color:#2E2F42">STUDIO</span></a>
-
+                <a class="header-link" href="Webstudio" class="logo"><span style="color:#4d5ae5">WEB</span><span style="color:#2E2F42">STUDIO</span></a>
+                
+        <div class="flex-container">
         <!--menu links-->
-       
         <nav>
                 <ul class="menu">
                     <li class="studio"><a href="my-studio" style="color:#4d5ae5">Studio</a></li>
@@ -58,6 +57,12 @@
         <section>
                  <ul class="benefit">
                     <li>
+                        <div class="images-icon">
+                            <svg width="64" height="64">
+                                <use href="./images/icons.svg#icon-antenna"></use>
+                            </svg>
+                        </div>
+
                         <h3>Strategy</h3>
                         <p>Our goal is to identify the business <br/>problem to walk away with the <br/>perfect and creative solution.</p>
                     </li>
@@ -102,10 +107,17 @@
             <h2>Our Team</h2>
 
                 <ul class="teams">
-                    <li class="team-mark">
+                    <li>
                         <img src="./images/mark.jpg" alt="Mark Guerrero" width="264px" height="260px">
-                        <h3>Mark Guerrero</h3>
+                    <div class="mark-caption">
+                        <h3 class="team-mark">Mark Guerrero</h3>
                         <p>Product Designer</p>
+                        <div class="mark-socials">
+                            <svg width="16" height="16">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </div>
+                    </div>
                     </li>
 
                     <li class="team-tom">
@@ -139,6 +151,7 @@
         marketing & growth solutions.
         </p>
     
+        
     </footer>
 
 </body>
