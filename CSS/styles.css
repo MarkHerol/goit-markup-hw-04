@@ -6,26 +6,27 @@
 /*HEADER*/
 /*logo, menu link, contact*/
 .flex-container{
-    display: flex;
-    justify-content: center;
+    display:inline-flex;
+    justify-content:space-between;
     gap: 40px;
-    align-items: center;
+  
 }
 
 .header-link{
     font-family: Raleway;
     font-size: 18px;
+    font-style: normal;
     font-weight: 800;
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
     padding-left: 156px;
 }
+.header-link{
+    gap:76px;
+}
 
 .menu{
-    display:flex;
-    gap: 32px; 
-    align-items: center;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -34,10 +35,14 @@
     letter-spacing: 0.32px;
 }
 
+.menu{
+    display: inline-flex;
+    justify-self:flex-start;
+    align-items:center;
+    gap: 40px;
+}
+
 .contact{
-    display:flex;
-    gap: 32px; 
-    align-items: center;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -45,6 +50,12 @@
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
   }
+.contact{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 32px; 
+}
 
 a{
     text-decoration: none;
@@ -56,11 +67,6 @@ a:hover{
 .my-studio{
     color:#4d5ae5;
 }   
-
-.portfolio
-
-
-
 
 .menu{
     text-align: left;
@@ -149,11 +155,8 @@ h2{
     text-transform: capitalize;
 }
 
-.about-section{
-    display: flex;
-}
 .images-icon{
-    display: flex;
+    align-items: center;
 }
 
 .benefit{
@@ -209,9 +212,6 @@ h2{
     border-radius: 5px;
     box-shadow: 5px;
 }
-.icon-icon-facebook{
-    display: flex;
-}
 
 .team-tom{
     background:white;
@@ -232,6 +232,27 @@ h2{
     box-shadow: 5px;
 }
 
+.customers{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.customers{
+    padding-top: 120px;
+}
+
+.customer-icon{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+
 /*FOOTER*/
 footer{
     background-color:#2e2f42;
@@ -240,19 +261,24 @@ footer{
 }
 
 .footer-link{
-    display: flex;
+    display: inline-flex;
     padding-left: 156px;
     padding-right: 1020px;
     padding-top: 140px;
     font-family: Roboto;
 }
 
-.footer-body{
-    display: flex;
+.footer-text{
+    display: inline-flex;
     padding-left: 156px;
     padding-right: 1020px;
     padding-bottom: 100px;
     font-family: Roboto;
+}
+
+.span{
+    display: inline-flex;
+    justify-content: center;
 }
 
 .logo{
