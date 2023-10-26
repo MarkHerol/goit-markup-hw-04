@@ -9,14 +9,22 @@
     --LIGHTSLATE:#8E8F99;
     --OCEAN: #404BBF;
 }
+
+/*------------------------------------------*/
+
 /*Header*/
 
 /*Logo*/
 .flex-container{
     display: inline-flex;
-    justify-content: center;
+    height: 24px;
     align-items: center;
-    gap: 40px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    width: 1440px;
+    height: 72px;
 }
 
 .my-studio{
@@ -30,11 +38,12 @@
     font-weight: 800;
     line-height: 21px; /* 116.667% */
     letter-spacing: 0.54px;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     margin-left: 156px;
-    margin-right: 76px;
-    gap:76px; 
+    margin-right: 76px; 
 }
+
+/*------------------------------------------*/
 
 /*menu*/
 .menu-link{
@@ -46,11 +55,13 @@
     letter-spacing: 0.32px;
 }
 .menu{
-    display:inline-flex;
-    justify-content:space-between;
+    display: inline-flex;
+    align-items: flex-start;
     gap: 40px;
-    margin-right: 700px;
+    margin-right: 332px;
 }
+
+/*------------------------------------------*/
 
 /*contact*/
 .contacts{
@@ -62,12 +73,18 @@
     letter-spacing: 0.32px;
 }
 .contacts{
-    display:inline-flex;
-    justify-content: flex-end;
-    gap: 40px;
+   display: flex;
+   gap: 40px;
 }
 
+
+/*------------------------------------------*/
+
 /* list style global*/
+.all{
+    width: 1440px;
+    height: 3200px;
+}
 a{
     text-decoration: none;
     color:#2e2f42;
@@ -82,6 +99,7 @@ ul{
     padding-left: 0%;
 }
 
+/*------------------------------------------*/
 
 /*hero section*/
 .hero{
@@ -106,6 +124,8 @@ ul{
     letter-spacing: 1.12px;
 }
 
+/*------------------------------------------*/
+
 /*button*/
 .my-btn{
     background-color:var(--IRIS, #4D5AE5)  
@@ -126,6 +146,9 @@ ul{
     font-size:16px;
     gap: 10px;
 }
+
+
+/*------------------------------------------*/
 
 /*BODY*/
 /*benifit*/
@@ -182,6 +205,9 @@ h2{
     gap: 24px;
 }
 
+
+/*------------------------------------------*/
+
 /*team members*/
 .t-i-s{
     background: var(--CLOUD, #F4F4FD);
@@ -228,6 +254,9 @@ h2{
     fill:#FFF;
 }
 
+
+/*------------------------------------------*/
+
 /*customers*/
 .customers{
     font-family: Roboto;
@@ -253,19 +282,90 @@ h2{
 .logo4,
 .logo5,
 .logo6{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
     border-radius: 4px;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
 }
 
+/*------------------------------------------*/
+
+/*Portfolio*/
+.main-body{
+    padding-top: 100px;
+    padding-bottom: 156px;
+    width: 1440px;
+}
+.portfolio-botton{
+    padding-top: 8px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    gap:24px;
+}
+.btn-all,
+.btn-website,
+.btn-app,
+.btn-design,
+.btn-marketing{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+}
+.btn-all:hover,
+.btn-website:hover,
+.btn-app:hover,
+.btn-design:hover,
+.btn-marketing:hover{
+    cursor: pointer;
+    background: var(--OCEAN, #404BBF);
+}
+.btn-all,
+.btn-website,
+.btn-app,
+.btn-design,
+.btn-marketing{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+}
+.row-1{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.row-3{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+/*------------------------------------------*/
+
 /*FOOTER*/
+.footer{
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
 .footer-section-all{
     display: flex;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 100px;
 }
 .section-footer{
     margin-left: 156px;
@@ -292,6 +392,24 @@ h2{
 .footer-text{
     color: var(--CLOUD, #F4F4FD);
     /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.img-text{
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+.p-text{
+    text-align: left;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
